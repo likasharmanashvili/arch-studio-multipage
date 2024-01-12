@@ -1,0 +1,263 @@
+
+
+
+header >nav >a{color: #7D828F;
+    font-family: League Spartan;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */;color: #7D828F;text-decoration: none;}
+header >nav >a:hover{color: #1B1D23;text-decoration: underline;}
+header{display: flex;justify-content: space-between;
+   }
+   .footerchild >nav >a{color: #7D828F;
+    font-family: League Spartan;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */}
+    .footerchild >nav >a:hover{color: #1B1D23;}   
+    
+    .button2{width: 252px;
+        height: 72px;
+        flex-shrink: 0;
+        background: #1B1D23;color: #FFF;
+        text-align: right;
+        font-family: League Spartan;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px; /* 138.889% */}
+    .button2:hover{background-color: #60636D;}.footerchild >button{border: none;text-align: center;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    align-items: center;background-color: #1B1D23;}
+footer{background: #EEEFF4;}
+.footerchild >nav >a{text-decoration: none;}
+.img1,.img2,.img4,.img5,.img6,.img7,.img8,.img9,.img10,.img11,.img12{position: relative;display:flex;
+align-items: center
+;justify-content: center;flex-direction: column;}
+.text >h1{color: #FFF;
+    font-family: League Spartan;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 125% */}
+.text >h4{color: #FFF;
+    font-family: League Spartan;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 133.333% */;opacity: 0.75;}
+    .text1 >h1{color: #FFF;
+        font-family: League Spartan;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px; /* 125% */}
+    .text1 >h4{color: #FFF;
+        font-family: League Spartan;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 133.333% */;opacity: 0.75;}
+.text{position: absolute;text-align: left;}
+.text1{position: absolute;}
+
+                                                                                        
+@media(width >375px){
+    body{display: flex;align-items: center;
+    justify-content: center;flex-direction: column;}
+header > nav{display: none;}
+header{display: flex;gap: 200px;}
+.icon1{margin-top: 10px;}
+.icon{margin-top: 20px;}
+.images{margin-top: 100px;}
+.img1 >img{width: 311px;
+    height: 240px;
+    flex-shrink: 0;}
+    .img2 >img{width: 311px;
+        height: 240px;
+        flex-shrink: 0;}
+        .img3 >img{width: 311px;
+            height: 240px;
+            flex-shrink: 0;}
+            .img4 >img{width: 311px;
+                height: 240px;
+                flex-shrink: 0;}
+                .img5 >img{width: 311px;
+                    height: 240px;
+                    flex-shrink: 0;}
+                    .img6 >img{width: 311px;
+                        height: 240px;
+                        flex-shrink: 0;}
+                        .img7 >img{width: 311px;
+                            height: 240px;
+                            flex-shrink: 0;}
+                            .img8 >img{width: 311px;
+                                height: 240px;
+                                flex-shrink: 0;}
+                                .img9 >img{width: 311px;
+                                    height: 240px;
+                                    flex-shrink: 0;}
+                                    .img10 >img{width: 311px;
+                                        height: 240px;
+                                        flex-shrink: 0;}
+                                        .img11 >img{width: 311px;
+                                            height: 240px;
+                                            flex-shrink: 0;}
+                                            .img12 >img{width: 311px;
+                                                height: 240px;
+                                                flex-shrink: 0;}
+  footer{width: 375px;
+    height: 383px;
+    flex-shrink: 0;display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;}
+    .footerchild{display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;} 
+        .footerchild >nav{display: flex;flex-direction: column;gap: 30px;}
+        .button1{width: 120px;
+            height: 120px;
+            flex-shrink: 0;}
+        .button2{margin-top: 20px;}
+footer{margin-top: 100px;}  
+.button1 {margin-top: -150px;} 
+.images{display: flex;flex-direction: column;gap: 40px;}
+.images1{display: flex;flex-direction: column;gap: 40px;} 
+.image2{display: flex;flex-direction: column;gap: 40px;} 
+.images3{display: flex;flex-direction: column;gap: 40px;}    
+.image4{display: flex;flex-direction: column;gap: 40px;}   
+.text{display: flex;flex-direction: column;text-align: left;justify-content: left;} 
+.text >h4{margin-top: -30px;}  
+.text >h1{margin-top: 140px;}
+              
+}
+@media (width >768px){
+  .icon{display: none;}
+  .icon1{margin-top: 20px;margin-left: -80px;}
+  header >nav{display: flex;margin-top: 30px;gap: 40px;margin-left: -80px;}
+    .img1 >img{width: 573px;
+        height: 240px;
+        flex-shrink: 0;}
+        .img2 >img{width: 573px;
+            height: 240px;
+            flex-shrink: 0;}
+            .img3 >img{width: 573px;
+                height: 240px;
+                flex-shrink: 0;}
+                .img4 >img{width: 573px;
+                    height: 240px;
+                    flex-shrink: 0;}
+                    .img5 >img{width: 573px;
+                        height: 240px;
+                        flex-shrink: 0;}
+                        .img6 >img{width: 573px;
+                            height: 240px;
+                            flex-shrink: 0;}
+                            .img7 >img{width: 573px;
+                                height: 240px;
+                                flex-shrink: 0;}
+                                .img8 >img{width: 573px;
+                                    height: 240px;
+                                    flex-shrink: 0;}
+                                    .img9 >img{width: 573px;
+                                        height: 240px;
+                                        flex-shrink: 0;}
+                                        .img10 >img{width: 573px;
+                                            height: 240px;
+                                            flex-shrink: 0;}
+                                            .img11 >img{width: 573px;
+                                                height: 240px;
+                                                flex-shrink: 0;}
+                                                .img12 >img{width: 573px;
+                                                    height: 240px;
+                                                    flex-shrink: 0;}
+
+.footerchild{        flex-shrink: 0;}
+.footerchild > .button1 >svg{font-size: 20px;}
+.footerchild >nav{flex-direction: row;}
+footer{margin-left: -200px;}
+.button1 {margin-top: 5px;margin-left: -110px;}
+.button2{margin-right: -718px;position: absolute;}
+.footerchild >nav{margin-left: 20px;}
+footer{width: 612px;
+    height: 120px;
+    flex-shrink: 0;}  
+   .footerchild {flex-direction: row;width: 612px;
+    height: 120px;
+    flex-shrink: 0;}  
+
+}
+
+@media(width >1399px){
+ header >nav{margin-left: -900px;}
+ .icon1{margin-left: -640px;}
+
+    .img1 >img{width: 400px;
+        height: 650px;
+        flex-shrink: 0;}
+        .img2 >img{width: 400px;
+            height: 650px;
+            flex-shrink: 0;}
+            .img3 >img{width: 400px;
+                height: 650px;
+                flex-shrink: 0;}
+                .img4 >img{width: 400px;
+                    height: 650px;
+                    flex-shrink: 0;}
+                    .img5 >img{width: 400px;
+                        height: 650px;
+                        flex-shrink: 0;}
+                    .img6 >img{width: 400px;
+                        height: 650px;
+                        flex-shrink: 0;}
+                        .img7 >img{width: 400px;
+                            height: 650px;
+                            flex-shrink: 0;}
+                            .img8 >img{width: 400px;
+                                height: 650px;
+                                flex-shrink: 0;}
+                                .img9 >img{width: 400px;
+                                    height: 650px;
+                                    flex-shrink: 0;}
+                                    .img10 >img{width: 400px;
+                                        height: 650px;
+                                        flex-shrink: 0;}
+                                        .img11 >img{width: 400px;
+                                            height: 650px;
+                                            flex-shrink: 0;}  .img12>img{width: 400px;
+                                                height: 650px;
+                                                flex-shrink: 0;}
+.images1{display: flex;flex-direction: row;}
+.image2{display: flex;flex-direction: row;}
+.images3{display: flex;flex-direction: row;}
+.image4{display: flex;flex-direction: row;}
+.img1{justify-content: flex-end;}
+.img2{justify-content: flex-end;}
+.img3{justify-content: flex-end;}
+.img4{justify-content: flex-end;}
+.img5{justify-content: flex-end;}
+.img6{justify-content: flex-end;}
+.img7{justify-content: flex-end;}
+.img8{justify-content: flex-end;}
+.img9{justify-content: flex-end;}
+.img10{justify-content: flex-end;}
+.img11{justify-content: flex-end;}
+.img12{justify-content: flex-end;}
+.button1{width: 200px;
+    height: 200px;
+    flex-shrink: 0;margin-top: 80px;margin-left: -500px;margin-top: -1px;}
+
+    .button2 {margin-left: 300px;margin-top: 60px;}
+    .footerchild >nav{margin-top: 50px;margin-left: 90px;}
+    footer{margin-top: 300px;width: 984px;
+        height: 200px;
+        flex-shrink: 0;}
+
+}
+
